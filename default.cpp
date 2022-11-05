@@ -14,8 +14,8 @@ using ll = long long;
 using ld = long double;
 const ll INF=1000000000;
 using ull = unsigned long long;
-typedef std::vector<pair<ll,ll>> vii;
-typedef std::vector<ll> vi;
+typedef vector<pair<ll,ll>> vii;
+typedef vector<ll> vi;
 typedef pair<ll,ll> pii;
 ll n;
 int main()
