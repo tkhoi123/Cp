@@ -8,7 +8,7 @@
 #define sqr(x) ((x) * (x))
 #define fi first
 #define se second
-#define fastio cin.tie(0)->sync_with_stdio(0);cin.exceptions(cin.failbit);
+#define NAME "temp"
 using namespace std;
 using ll = long long;
 using ld = long double;
@@ -16,13 +16,12 @@ const ll INF=1000000000;
 using ull = unsigned long long;
 typedef std::vector<pair<ll,ll>> vii;
 typedef std::vector<ll> vi;
+typedef pair<ll,ll> pii;
 ll n;
 int main()
 {
-    fastio
-    //freopen("PLANT.INP","r",stdin);
-    //freopen("PLANT.OUT","w",stdout);
+    cin.tie(0)->sync_with_stdio(0);cin.exceptions(cin.failbit);
+    //freopen(NAME".INP","r",stdin);freopen(NAME".OUT","w",stdout);
     cin>>n;
-    
     return 0;
 }
