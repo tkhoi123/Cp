@@ -64,7 +64,7 @@ int main()
     ll stx,sty;
     for(ll i=0;i<r;++i)
     {
-        for(ll j=0;j<r;++j)
+        for(ll j=0;j<c;++j)
         {
             char te;
             cin>>te;
