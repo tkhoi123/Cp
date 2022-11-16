@@ -17,7 +17,7 @@ void fix(ll id,ll l,ll r)
     {
         Lazy[id*2]+=Lazy[id];
         Lazy[id*2+1]+=Lazy[id];
-        Node[id*2+1]+=Lazy[id];
+        Node[id*2]+=Lazy[id];
         Node[id*2+1]+=Lazy[id];
         Lazy[id]=0;
     }
