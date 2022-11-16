@@ -17,6 +17,7 @@ using ull = unsigned long long;
 typedef vector<pair<ll,ll>> vii;
 typedef vector<ll> vi;
 typedef pair<ll,ll> pii;
+const ll maxn=100000
 ll n;
 int main()
 {
