@@ -48,6 +48,7 @@ void update(ll id,ll l,ll r,ll u,ll v,ll val)
         Lazy[id]+=val;
         return;
     }
+    fix(id,l,r);
     ll mid=(l+r)>>1;
     update(id*2,l,mid,u,v,val);
     update(id*2+1,mid+1,r,u,v,val);
