@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 #define el cout<<"\n"
-#define f(i,l,r) for (ll i = l; i < (r); ++i)
-#define F(i,l,r) for (ll i = l; i > (r); --i)
 #define pb push_back
 #define all(x) begin(x), end(x)
 #define sz(x) (int)(x).size()
