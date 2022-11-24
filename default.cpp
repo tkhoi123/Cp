@@ -20,7 +20,8 @@ ll n;
 int main()
 {
     cin.tie(0)->sync_with_stdio(0);
-    freopen(NAME".INP","r",stdin);freopen(NAME".OUT","w",stdout);
+    freopen(NAME".INP","r",stdin);
+    //freopen(NAME".OUT","w",stdout);
     cin>>n;
     return 0;
 }
