@@ -15,12 +15,12 @@ using ull = unsigned long long;
 typedef vector<pair<ll,ll>> vii;
 typedef vector<ll> vi;
 typedef pair<ll,ll> pii;
-const ll maxn=100000;
+const ll maxn=100001;
 ll n;
 int main()
 {
     cin.tie(0)->sync_with_stdio(0);
-    //freopen(NAME".INP","r",stdin);freopen(NAME".OUT","w",stdout);
+    freopen(NAME".INP","r",stdin);freopen(NAME".OUT","w",stdout);
     cin>>n;
     return 0;
 }
