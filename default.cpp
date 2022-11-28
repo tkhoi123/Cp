@@ -2,7 +2,7 @@
 #define el cout<<"\n"
 #define pb push_back
 #define all(x) begin(x), end(x)
-#define sz(x) (int)(x).size()
+#define sz(x) (ll)(x).size()
 #define sqr(x) ((x) * (x))
 #define fi first
 #define se second
