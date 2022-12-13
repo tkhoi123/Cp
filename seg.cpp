@@ -30,7 +30,7 @@ void update(ll id,ll l,ll r,ll u,ll v,ll val)
     {
         return ;
     }
-    if(l==r)
+    if(l==r&&u==v)
     {
         Node[id]+=val;
         return;
