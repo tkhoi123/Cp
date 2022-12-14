@@ -1,4 +1,3 @@
-ll n,Node[maxn*4],a[maxn],q;
 void build(ll id,ll l,ll r)
 {
     if(l==r)
