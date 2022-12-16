@@ -10,7 +10,6 @@ using namespace std;
 using ll = long long;
 const ll INF=1000000000;
 using ld = long double;
-using ull = unsigned long long;
 typedef vector<pair<ll,ll>> vii;
 typedef vector<ll> vi;
 typedef pair<ll,ll> pii;
@@ -23,7 +22,6 @@ void solve()
 }
 int main()
 {
-
     cin.tie(0)->sync_with_stdio(0);
     t=1;
     cin>>t;
