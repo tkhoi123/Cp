@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #define sz(x) (int)(x).size()
-#define el cout<<"\n"
 using namespace std;
 using ll = long long;
 const ll MOD=998244353;
