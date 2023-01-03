@@ -6,7 +6,7 @@
 #define sqr(x) ((x) * (x))
 #define NAME "GOLF"
 using namespace std;
-using ll = int;
+using ll = long long;
 using ld = long double;
 const ll INF=1000000000;
 typedef vector<pair<ll,ll>> vii;
