@@ -9,24 +9,24 @@ vector<vector<ll>>temp{{1,0,0},{0,1,0},{0,0,1}};
 vector<vector<ll>>tempc{{1,0,0},{0,1,0},{0,0,1}};
 vector<vector<ll>>ans{{1,0,0},{0,0,0},{1,0,0}};
 vector<ll>a;
-void mul(vector<vector<ll>>&a,vector<vector<ll>>&b)
+void mul(vector<vector<ll>>&c,vector<vector<ll>>&b)
 {
-    vector<vector<ll>>res(sz(a),vector<ll>(sz(a)));
-    for(ll i=0; i<sz(a); ++i)
+    vector<vector<ll>>res(sz(c),vector<ll>(sz(c)));
+    for(ll i=0; i<sz(c); ++i)
     {
-        for(ll j=0; j<sz(a); ++j)
+        for(ll j=0; j<sz(c); ++j)
         {
-            for(ll z=0; z<sz(a); ++z)
+            for(ll z=0; z<sz(c); ++z)
             {
-                res[i][j]+=a[z][j]*b[i][z];
+                res[i][j]+=c[z][j]*b[i][z];
             }
         }
     }
-    for(ll i=0; i<sz(a); ++i)
+    for(ll i=0; i<sz(c); ++i)
     {
-        for(ll j=0; j<sz(a); ++j)
+        for(ll j=0; j<sz(c); ++j)
         {
-            a[i][j]=res[i][j]%MOD;
+            c[i][j]=res[i][j]%MOD;
         }
     }
 }
